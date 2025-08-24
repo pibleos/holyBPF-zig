@@ -43,14 +43,6 @@ jobs:
         run: |
           gem install jekyll bundler
           bundle config set --local path 'vendor/bundle'
-          cat > Gemfile << EOF
-          source "https://rubygems.org"
-          gem "jekyll", "~> 4.3.0"
-          gem "minima", "~> 2.5"
-          gem "jekyll-feed", "~> 0.12"
-          gem "jekyll-sitemap"
-          gem "jekyll-seo-tag"
-          EOF
           bundle install
       
       - name: Build with Jekyll
