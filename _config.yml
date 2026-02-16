@@ -7,7 +7,7 @@ baseurl: "/holyBPF-zig"
 # GitHub Pages settings
 source: .
 destination: ./_site
-permalink: /:categories/:title/
+permalink: pretty
 markdown: kramdown
 highlighter: rouge
 plugins:

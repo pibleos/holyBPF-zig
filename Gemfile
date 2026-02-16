@@ -1,13 +1,14 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem
+# GitHub Pages gem - this manages Jekyll and plugin versions for GitHub Pages compatibility
 gem "github-pages", group: :jekyll_plugins
 
-# Jekyll and plugins
-gem "jekyll", "~> 3.9.0"
+# Theme
 gem "minima", "~> 2.5"
 
-# Jekyll plugins
+# Jekyll plugins (some may be included in github-pages, but listing for clarity)
+
+# Jekyll plugins (some may be included in github-pages, but listing for clarity)
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
