@@ -7,6 +7,8 @@ gem "github-pages", group: :jekyll_plugins
 gem "minima", "~> 2.5"
 
 # Jekyll plugins (some may be included in github-pages, but listing for clarity)
+
+# Jekyll plugins (some may be included in github-pages, but listing for clarity)
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"

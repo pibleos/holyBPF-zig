@@ -1,0 +1,10 @@
+{
+  "success": false,
+  "tasks_total": 5,
+  "tasks_completed": 2,
+  "tasks_failed": 3,
+  "planning_ms": 46168,
+  "execution_ms": 165780,
+  "total_ms": 212060,
+  "error": "Replan failed: Edit only changes whitespace (removing trailing spaces and adding blank line) and is flagged as semantic no-op\n\nPartial progress:\n2 of 5 tasks completed successfully before failure.\nCompleted:\n  - Bash\n  - Edit Gemfile\nFailed at: Replan failed: Edit only changes whitespace (removing trailing spaces and adding blank line) and is flagged as semantic no-op"
+}

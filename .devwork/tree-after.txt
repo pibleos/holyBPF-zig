@@ -1,0 +1,129 @@
+# Directory snapshot after SpecKit execution
+
+/tmp/claudev-pr-26078
+├── advanced
+│   ├── cpi.md
+│   └── index.md
+├── api
+│   ├── index.md
+│   └── stdlib.md
+├── ARCHITECTURE.md
+├── assets
+│   ├── css
+│   │   └── style.css
+│   ├── favicon.svg
+│   └── js
+│       └── main.js
+├── build_analyzer.sh
+├── BUILD_VALIDATION.md
+├── build_validator.sh
+├── build.zig
+├── build.zig.zon
+├── _config.yml
+├── CONTRIBUTING.md
+├── DEVELOPMENT_PLAN.md
+├── docs
+│   ├── advanced
+│   │   └── cpi.md
+│   ├── api
+│   │   └── stdlib.md
+│   ├── examples
+│   │   └── snippets.md
+│   ├── getting-started
+│   │   └── quick-start.md
+│   ├── language-reference
+│   │   └── holyc-solana.md
+│   ├── programs
+│   │   ├── amm.md
+│   │   ├── lending.md
+│   │   ├── orderbook.md
+│   │   └── prediction-markets.md
+│   ├── README.md
+│   └── screenshots
+│       ├── advanced-index.png
+│       ├── amm.png
+│       ├── api-index.png
+│       ├── api-stdlib.png
+│       ├── cpi.png
+│       ├── examples-index.png
+│       ├── examples-snippets.png
+│       ├── getting-started-index.png
+│       ├── holyc-solana.png
+│       ├── homepage.png
+│       ├── language-reference-index.png
+│       ├── lending.png
+│       ├── orderbook.png
+│       ├── prediction-markets.png
+│       ├── programs-index.png
+│       ├── quick-start.png
+│       └── README.md
+├── examples
+│   ├── amm
+│   │   └── src
+│   │       └── main.hc
+│   ├── escrow
+│   │   ├── build.zig
+│   │   ├── README.md
+│   │   └── src
+│   │       ├── main.hc
+│   │       └── types.hc
+│   ├── hello-world
+│   │   ├── build.zig
+│   │   ├── README.md
+│   │   └── src
+│   │       ├── main.hc
+│   │       ├── main.json
+│   │       └── types.hc
+│   ├── index.md
+│   ├── lending
+│   │   └── src
+│   │       └── main.hc
+│   ├── snippets.md
+│   └── solana-token
+│       └── src
+│           └── main.hc
+├── Gemfile
+├── getting-started
+│   ├── index.md
+│   └── quick-start.md
+├── IMPLEMENTATION.md
+├── index.md
+├── language-reference
+│   ├── holyc-solana.md
+│   └── index.md
+├── _layouts
+│   ├── default.html
+│   └── doc.html
+├── LICENSE
+├── programs
+│   ├── amm.md
+│   ├── index.md
+│   ├── lending.md
+│   ├── orderbook.md
+│   └── prediction-markets.md
+├── README.md
+├── recursive_build_fixer.sh
+├── ROADMAP.md
+├── SOLANA_BPF.md
+├── src
+│   └── Pible
+│       ├── BpfVm.zig
+│       ├── CodeGen.zig
+│       ├── Compiler.zig
+│       ├── Lexer.zig
+│       ├── Main.zig
+│       ├── Parser.zig
+│       ├── SolanaBpf.zig
+│       └── Tests.zig
+├── STATUS.md
+└── tests
+    ├── codegen_test.zig
+    ├── compiler_test.zig
+    ├── integration_test.zig
+    ├── lexer_test.zig
+    ├── main.zig
+    ├── parser_test.zig
+    ├── solana_bpf_test.zig
+    └── test_lexer.zig
+
+32 directories, 93 files
